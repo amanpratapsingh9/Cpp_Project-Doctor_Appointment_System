@@ -57,6 +57,7 @@ int bookAppointment()
         }
         read.close();
     }
+    
     if(recordFound == 0)
     {
         cout<<"\n Appointment Available for following hours: ";
