@@ -24,6 +24,7 @@ int bookAppointment()
         string line;
         char key = 'A';
         int i = 9;
+        
         while(getline(read, line))
         {
             char temp = line[0];
